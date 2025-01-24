@@ -1,0 +1,46 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <PackageId>DragonUtilities</PackageId>
+        <Version>1.0.1</Version>
+        <Authors>Dragonoid</Authors>
+        <Product>DragonUtilities Library</Product>
+        <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+        <Title>DragonUtilities Core Utils</Title>
+        <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+        <Description>DragonUtilities is a Custom Core Utility Package.</Description>
+        <RepositoryUrl>https://github.com/DraconicKnights/DragonUtilities</RepositoryUrl>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
+        <PackageTags>Dragonoid Core Utility</PackageTags>
+        <Copyright>Copyright (c) 2025 DraconicKnights </Copyright>
+        <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+        <GenerateDocumentationFile>True</GenerateDocumentationFile>
+        <PackageReleaseNotes>Release Notes: Version 1.0.1
+Renaming: The core manager has been renamed from DragonUtilities.DragonUtilities to DragonUtilities.DragonUtilityManager for improved clarity and usability.
+Refactoring: Simplified and optimised the internal structure of the DragonUtilityManager class, enhancing maintainability and readability.
+Documentation: Added comprehensive XML comments for public classes and methods, ensuring better IntelliSense support and developer guidance.
+</PackageReleaseNotes>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <None Include="..\LICENSE.txt">
+        <Pack>True</Pack>
+        <PackagePath>\</PackagePath>
+      </None>
+      <None Include="..\README.md">
+        <Pack>True</Pack>
+        <PackagePath>\</PackagePath>
+      </None>
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Update="README.md">
+        <Pack>True</Pack>
+        <PackagePath>\</PackagePath>
+      </None>
+    </ItemGroup>
+
+</Project>
